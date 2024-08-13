@@ -1,0 +1,114 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    height: 100vh;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)),
+    url(hot.png) no-repeat center/cover;
+}
+.weather
+{
+    background: url(hot.png) no-repeat center/cover;
+    flex-direction: column;
+    display: flex;
+	align-items: center;
+    padding: 20px;
+    height: 600px;
+    min-width: 350px;
+    text-align: center;
+    border-radius: 10px;
+}
+.search > input
+{
+    outline: none;
+    border: none;
+    font-size: 19px;
+    padding: 10px 50px 10px 20px;
+    border-radius: 0 15px 0 15px;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
+}
+.search
+{
+    margin-top: 15px;
+    padding-bottom: 50px;
+}
+.content
+{
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 5px;
+    text-shadow:3px 3px rgba(0, 0, 0, 0.9) ;
+
+}
+.time
+{
+    color: aliceblue;
+}
+.temperature
+{
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+    color: white;
+    font-size: 70px;
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 150px;
+    width: 250px;
+    line-height: 55px;
+    border-radius: 15px;
+    padding: 30px;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.7) ;
+}
+.couds
+{
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: aliceblue;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.7) ;
+    font-weight: 700;
+}
+.box_thoitiet
+{
+    color: aliceblue;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+.eye
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gio
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mat_troi
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.value
+{
+    margin: 8px;
+}
